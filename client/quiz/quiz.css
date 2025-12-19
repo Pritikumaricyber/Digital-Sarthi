@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  color: #333;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 1rem;
+  color: #1976d2;
+  text-decoration: none;
+  background: #ffffff;
+  border: 2px solid #1976d2;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  z-index: 1000;
+}
+
+.back-btn:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.question {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.question h2 {
+  font-size: 1.2rem;
+  color: #0d47a1;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.btn {
+  background: #1976d2;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #1565c0;
+}
+
+.result {
+  margin-top: 3rem;
+  animation: fadeIn 1s ease forwards;
+}
+
+.spirit-card {
+  background: #e3f2fd;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  border-left: 8px solid #1976d2;
+}
+
+.spirit-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.spirit-title {
+  font-size: 1.8rem;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.spirit-description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.spirit-tagline {
+  font-style: italic;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hidden {
+  display: none;
+}
